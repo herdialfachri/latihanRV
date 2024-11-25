@@ -25,8 +25,9 @@
     <string name="dummy_value">Rp. 35.000.000</string>
     <string name="dummy_photos">6 photos</string>
     <string name="foto_hp">foto_hp</string>
-    <string name="nama_toko">Space Font</string>
+    <string name="nama_toko">SpaceFont</string>
     <string name="model">Model Handphone</string>
     <string name="nama_handphone">Nama Handphone</string>
     <string name="version">Versi 1.0</string>
+    <string name="nama_store">Space Phone Store</string>
 </resources>
