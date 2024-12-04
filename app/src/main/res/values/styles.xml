@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="forTitle">
+        <item name="android:fontFamily">@font/interbold</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/purple</item>
+    </style>
+
+    <style name="forSubTitle">
+        <item name="android:fontFamily">@font/interbold</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <!-- Style Kustom untuk Button -->
+    <style name="CustomButton" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/custom_button</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/intermedium</item>
+    </style>
+</resources>
+

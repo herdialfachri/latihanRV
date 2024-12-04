@@ -1,7 +1,9 @@
 package com.herdialfachri.myapplication
 
 import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
+import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
@@ -26,6 +28,13 @@ class ProductActivity : AppCompatActivity() {
             val intent = Intent(this@ProductActivity, MainActivity::class.java)
             startActivity(intent)
             finish()
+        }
+
+        val callButton: Button = findViewById(R.id.implicitIntent)
+        callButton.setOnClickListener {
+            val intent = Intent(Intent.ACTION_DIAL)
+            intent.data = Uri.parse("tel:6282122506110")
+            startActivity(intent)
         }
     }
 }
